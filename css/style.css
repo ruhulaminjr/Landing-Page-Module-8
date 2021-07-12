@@ -99,8 +99,8 @@ hr {
   grid-column-gap: 24px;
 }
 .course {
-  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
+    box-shadow:0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
   padding: 5px;
 }
 .course-thumbnail img {
