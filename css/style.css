@@ -11,13 +11,15 @@ body {
 }
 main {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
   background: #fff;
   padding: 30px;
   width: 870px;
+  margin-top: 26px;
+  border-radius: 5px;
 }
 .section-title {
   color: #562eff;
@@ -54,38 +56,91 @@ hr {
   line-height: 27px;
   margin-left: 16px;
 }
- /* top blog section  */
+/* top blog section  */
 
- .top-blog{
+.top-blog {
   margin: 16px 0;
- }
- .blogs{  
-   margin: 20px 0;
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   gap: 30px;
- }
- .blog{
-   display: flex;
- }
- .blog-thumbnail img{
+}
+.blogs {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.blog {
+  display: flex;
+}
+.blog-thumbnail img {
   width: 177px;
   height: 117px;
- }
- .blog-info{
+}
+.blog-info {
   margin-left: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- }
- .blog-title{
+}
+.blog-title {
   font-weight: 500;
   font-size: 20px;
- }
- .author{
-  color: #9F9F9F;
- }
- .author a{
-   text-decoration: none;
-   color: #562eff;
- }
+}
+.author {
+  color: #9f9f9f;
+}
+.author a {
+  text-decoration: none;
+  color: #562eff;
+}
+/* courses section  */
+.courses {
+  margin: 16px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course {
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 5px;
+}
+.course-thumbnail img {
+  width: 224px;
+  height: 104px;
+}
+.course-details {
+}
+.course-title {
+  color: #1e1e1e;
+  font-size: 20px;
+}
+.course-author {
+  font-size: 14px;
+  color: #ed6b4f;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+}
+.course-info p {
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.course-duration {
+  background: #ffe4e8;
+  width: 94px;
+  height: 30px;
+  border-radius: 14px;
+  color: #ff4a60;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 10px;
+}
